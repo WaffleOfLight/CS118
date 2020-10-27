@@ -7,8 +7,6 @@ def bubSort(nums):
                 nums[j] = nums[j + 1]
                 nums[j + 1] = temp
     return nums
-
-
 lst = []
 for i in range(random.randint(5, 10)):
     lst.append(random.randint(1, 20))
